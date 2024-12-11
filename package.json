@@ -1,0 +1,20 @@
+{
+  "name": "devtinder_api",
+  "version": "1.0.0",
+  "description": "Tinder for Developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodeJS",
+    "ExpressJS",
+    "MongoDB"
+  ],
+  "author": "Selvakartig",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
