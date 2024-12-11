@@ -2,6 +2,22 @@ const express = require("express")
 
 const app = express()
 
+app.get("/user", (req, res) => {
+    res.send({
+        firstName: "Selvakartig",
+        lastName: "Kanagaraj"
+    })
+})
+
+app.post("/user", (req, res) => {
+    //DB Logic
+    res.send("Data saved successfully to the Database!")
+})
+
+app.delete("/user", (req, res) => {
+    res.send("Data has been deleted!")
+})
+
 app.use("/test", (req, res) => {
     res.send("Test Test!");   
 })
